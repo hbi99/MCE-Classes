@@ -1,0 +1,183 @@
+.mce_classes * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.mce_classes a.nolink {
+  outline: none;
+}
+.mce_classes .fields_header {
+  height: 35px;
+}
+.mce_classes .fields_header th {
+  padding: 14px 10px;
+  font-weight: bold;
+}
+.mce_classes ul.ui-sortable {
+  min-height: 10px;
+  border-bottom: #e5e5e5 1px solid;
+}
+.mce_classes ul.ui-sortable li {
+  background: #fff;
+  border: #e5e5e5 1px solid;
+  border-bottom: 0px;
+  margin: 0px;
+  height: 41px;
+  overflow: hidden;
+  transition: height 350ms ease-in-out;
+  -webkit-transition: height 350ms ease-in-out;
+  -moz-transition: height 350ms ease-in-out;
+  -ms-transition: height 350ms ease-in-out;
+}
+.mce_classes ul.ui-sortable li:hover {
+  background: #f4f4f4;
+}
+.mce_classes ul.ui-sortable li:hover .field_remove .nolink {
+  display: block;
+}
+.mce_classes ul.ui-sortable li.mce_expanded .mce_row_toggler:before {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.mce_classes ul.ui-sortable li .mce_extended {
+  padding: 1px 10px 8px;
+}
+.mce_classes ul.ui-sortable li .mce_extended textarea {
+  width: 100%;
+  height: 200px;
+  resize: none;
+}
+.mce_classes ul.ui-sortable li table.widefat {
+  background: transparent;
+  border: 0px;
+  box-shadow: 0px 0px 0px;
+}
+.mce_classes ul.ui-sortable li .field_order {
+  cursor: move;
+}
+.mce_classes ul.ui-sortable li .field_order .mce_row_toggler {
+  position: relative;
+  top: 2px;
+  left: -2px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  cursor: pointer;
+}
+.mce_classes ul.ui-sortable li .field_order .mce_row_toggler:before {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  content: '';
+  width: 0px;
+  height: 0px;
+  border-top: 6px solid transparent;
+  border-left: 6px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 6px solid transparent;
+  transition: all 400ms ease-in-out;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+  -webkit-transform-origin: 30% 50%;
+  -moz-transform-origin: 30% 50%;
+  -ms-transform-origin: 30% 50%;
+  -o-transform-origin: 30% 50%;
+  transform-origin: 30% 50%;
+}
+.mce_classes table.widefat.row_template {
+  display: none;
+}
+.mce_classes table.widefat th {
+  border: 0px;
+}
+.mce_classes table.widefat td {
+  border: 0px;
+  padding: 5px 10px 4px;
+}
+.mce_classes table.widefat .field_order {
+  width: 95px;
+}
+.mce_classes table.widefat .field_class {
+  width: 180px;
+}
+.mce_classes table.widefat .field_remove {
+  width: 28px;
+  padding: 5px 5px 0px 0px;
+}
+.mce_classes table.widefat .field_remove .nolink {
+  position: relative;
+  top: 2px;
+  text-indent: -9999px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: none;
+}
+.mce_classes table.widefat .field_remove .nolink:hover:after {
+  background: rgba(0, 0, 0, 0.45);
+}
+.mce_classes table.widefat .field_remove .nolink:after {
+  content: '';
+  position: absolute;
+  top: 9px;
+  left: 3px;
+  width: 13px;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+.mce_classes input {
+  border: 0px;
+  background: #fff;
+  width: 100%;
+  padding-left: 0px;
+}
+.mce_classes input.field_font_order {
+  position: relative;
+  top: -4px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  cursor: inherit;
+}
+.mce_classes input.field_font_name {
+  box-shadow: 0px 0px 0px;
+  margin-left: 0px;
+}
+.mce_classes input.field_font_class {
+  box-shadow: 0px 0px 0px;
+  margin-left: 0px;
+}
+.mce_classes #post-body-content {
+  position: relative;
+}
+.mce_classes .progress {
+  position: absolute;
+  bottom: 41px;
+  left: 0px;
+  background: #D54E21;
+  box-shadow: 0px 0px 1px #D54E21;
+  z-index: 999;
+  height: 2px;
+  width: 0px;
+}
+.mce_classes .progress.enabled {
+  transition: all 400ms ease-in-out;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+}
+.mce_classes .button-large {
+  width: 80px;
+  text-align: center;
+}
+/*
+ * Mixins
+ */
